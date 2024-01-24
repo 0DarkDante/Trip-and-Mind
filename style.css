@@ -19,7 +19,7 @@ header {
 }
 
 .container {
-  padding: 55px 120px;
+  padding: 35px 120px;
 }
 
 .header-menu {
@@ -83,4 +83,65 @@ header {
 .burger-menu::after {
   top: 8px;
   left: 0px;
+}
+
+.main-header-part h1 {
+  font-family: Playfair Display;
+  font-size: 70px;
+  width: 830px;
+  height: 190px;
+  line-height: 95px;
+  text-align: left;
+  margin-top: 145px;
+}
+
+.main-header-part p {
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 25px;
+  width: 415px;
+  height: 90px;
+  line-height: 45px;
+  margin-top: 50px;
+}
+
+.main-header-part-section {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.main-header-part-section button {
+  margin-top: 55px;
+  width: 335px;
+  height: 75px;
+  border-radius: 38px;
+  font-family: Montserrat;
+  font-size: 20px;
+  background-color: #DD9428;
+  line-height: 24.38px;
+  text-align: center;
+}
+
+.icon-play {
+  display: flex;
+  align-items: center;
+}
+
+.icon-play img {
+  height: 75px;
+  width: 75px;
+  padding-right: 20px;
+  padding-top: 55px;
+  padding-left: 90px;
+}
+
+.icon-play p {
+  width: 104px;
+  height: 78px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 26px;
+  color: #A1A8B6;
+  margin-bottom: 0px;
 }
