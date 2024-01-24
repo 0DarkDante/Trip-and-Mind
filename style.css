@@ -144,4 +144,34 @@ header {
   line-height: 26px;
   color: #A1A8B6;
   margin-bottom: 0px;
+  line-height: 26px;
+}
+
+.social-header {
+  text-align: left;
+  margin-top: 130px;
+  width: 330px;
+}
+
+.social-header p {
+  font-size: 17px;
+  line-height: 17.07px;
+  font-family: Montserrat;
+}
+
+.social-header a {
+  margin-right: 60px;
+}
+
+.last-header-part {
+  display: flex;
+}
+
+.many-img-header {
+  display: flex;
+  margin-left: 600px;
+}
+
+.one-img-header {
+  margin-right: 27px;
 }
