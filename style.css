@@ -316,3 +316,105 @@ header {
   bottom: 45px;
   right: 10%;
 }
+
+.main-section2 {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.section2-1,
+.section2-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Колір тексту, якщо фото темне */
+}
+
+.section2-1 h2 {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  width: 403px;
+  height: 165px;
+  color: #000000;
+  text-align: left;
+}
+
+.section2-1 p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  width: 202px;
+  height: 56px;
+  color: #000000;
+  text-align: left;
+}
+
+.section2-2 input {
+  width: 283px;
+  height: 75px;
+  border-radius: 38px;
+  border: 2px solid #CED8DF;
+  color: #CED8DF;
+}
+
+.section2-2 input:focus {
+  border: 2px solid #DD9428;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #DD9428;
+  outline: none;
+}
+
+.section2-2 input::placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 20px;
+  color: #B7C3CC;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+
+.section2-2 input:not(:focus) {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 20px;
+  color: #DD9428;
+}
+
+.section2-2 button {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  width: 283px;
+  height: 75px;
+
+  color: #000000;
+
+}
+
+.section2-2 p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  width: 224px;
+  height: 36px;
+  color: #000000;
+  text-align: center;
+}
+
+.section2-2 span {
+  color: #DD9428;
+}
