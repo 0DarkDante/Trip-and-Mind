@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  text-align: center;
 }
 
 header {
@@ -16,6 +17,11 @@ header {
   color: white;
   text-align: center;
   height: 970px;
+}
+
+.container2 {
+  width: 1920px;
+  margin: 0 auto;
 }
 
 .container {
@@ -121,6 +127,7 @@ header {
   background-color: #DD9428;
   line-height: 24.38px;
   text-align: center;
+  cursor: pointer;
 }
 
 .icon-play {
@@ -134,6 +141,7 @@ header {
   padding-right: 20px;
   padding-top: 55px;
   padding-left: 90px;
+  cursor: pointer;
 }
 
 .icon-play p {
@@ -169,9 +177,44 @@ header {
 
 .many-img-header {
   display: flex;
-  margin-left: 600px;
+  margin-left: 400px;
 }
 
 .one-img-header {
   margin-right: 27px;
+  position: relative;
 }
+
+
+.one-img-header p,
+.one-img-header h3,
+.one-img-header a {
+  position: absolute;
+  color: white; 
+}
+
+.one-img-header p {
+  top: 6%; 
+  left: 12%; 
+  transform: translate(-50%, -50%); 
+  font-family: Playfair Display;
+  font-size: 25px;
+}
+
+.one-img-header h3 {
+  bottom: 10px; 
+  left: 19%; 
+  transform: translateX(-50%); 
+  width: 58px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.one-img-header a {
+  bottom: 25px; 
+  right: 15%; 
+  transform: translateX(50%); 
+}
+
