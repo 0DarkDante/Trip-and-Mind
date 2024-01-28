@@ -429,3 +429,76 @@ input:focus::placeholder {
   color: #DD9428;
 }
 
+.main-section3 {
+  position: relative;
+  display: flex;
+  margin: 0 260px;
+}
+
+.section3-1 {
+  width: 470px;
+  height: 1000px;
+}
+
+.section3-2 {
+  width: 830px;
+  position: relative;
+  margin-left: 115px;
+}
+
+.section3-1 h2{
+  width: 468px;
+  font-family: Playfair Display;
+  font-size: 42px;
+  line-height: 55px;
+}
+
+.section3-1 p { 
+  width: 448px;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.section3-2 .p1-leftBar,
+.section3-2 .p2-leftBar,
+.section3-2 h3,
+.section3-2 a {
+  position: absolute;
+  color: white; 
+}
+
+.p1-leftBar {
+  font-family: Playfair Display;
+  width: 76px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  top: 20px;
+  left: 76px;
+}
+
+.p2-leftBar {
+  width: 128px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  top: 60px;
+  left: 91px;
+}
+
+.section3-2 h3 {
+  width: 210px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: left;
+  top: 350px;
+  left: 50px;
+}
+
+.section3-2 a {
+  right: 55px;
+  top: 405px;
+}
