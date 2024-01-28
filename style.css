@@ -288,8 +288,9 @@ header {
 }
 
 .p2-leftBar {
-  top: 12%; 
-  left: 10%; 
+  position: absolute;
+  top: 55px;
+  left: 72px;
   transform: translateX(-50%);
   font-family: Montserrat;
   width: 61px;
@@ -461,7 +462,7 @@ input:focus::placeholder {
 }
 
 .section3-2 .p1-leftBar,
-.section3-2 .p2-leftBar,
+.section3-2 .p2-leftBar2,
 .section3-2 h3,
 .section3-2 a {
   position: absolute;
@@ -478,14 +479,14 @@ input:focus::placeholder {
   left: 76px;
 }
 
-.p2-leftBar {
+.p2-leftBar2 {
   width: 128px;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 16px;
   line-height: 19.5px;
   top: 60px;
-  left: 91px;
+  left: 28px;
 }
 
 .section3-2 h3 {
@@ -514,4 +515,36 @@ footer {
 .logo-footer {
   height: 35px;
   width: 160px;
+  margin-left: 120px;
+}
+
+footer p:first-of-type {
+  margin-left: 123px;
+  width: 160px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #90A4B2;
+  text-align: left;
+}
+
+footer p:last-of-type {
+  margin-left: 123px;
+  width: 185px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #90A4B2;
+  text-align: left;
+}
+
+.img-footer {
+  margin-left: 731px;
+}
+
+.img-footer img {
+  margin-right: 39px;
+  cursor: pointer;
 }
